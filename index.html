@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Best Friend Pet Adoption</title>
+</head>
+<body id="home">
+    <header>
+        <div>
+            <img src="images/logo.png" alt="logo" width="200">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="adoption-dog.html">Dogs</a></li>
+                    <li><a href="adoption-cat.html">Cats</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Find the perfect dog and cat to adopt today!</h1>
+    <h3>
+        Best Friend Pet Adoption is a local pet adoption service. 
+        <br>We are dedicated to providing assistance to homeless and unwanted animals in Los Angeles and the surrounding areas.
+    </h3>
+    <p>
+        We started with little fanfare. And even fewer resources. We were creating a sanctuary for homeless and special-needs animals literally from the ground up. We were forging roadways and erecting buildings with our bare hands. We were creating a better world through kindness to animals. We did it with passion, believing that a humane path forward — one in which every pet has the chance to know love and companionship — was the only path forward.
+        There was no how-to manual for realizing such a vision, but we soon found we did not need one. We emphasized positive change and what we could accomplish together, never guilt or shock to force people into joining us. Even in those early days, each discrete act of lifesaving counted, no matter how small or unseen. Because we were not just building a sanctuary. We were laying the groundwork for changing how this country looks at — and looks out for — its homeless dogs and cats. We were shaping the way we care for our most beloved companions. When money was tight, we shared whatever we had — and the more we shared, the more we were given to share.
+    </p>
+    <fieldset class="choice">
+        <legend><h2>&nbsp;&nbsp;&nbsp;Select the pets that you want to adopt today&nbsp;&nbsp;&nbsp;</h2></legend>
+        <button><a href="adoption-dog.html"><h2>Dogs</h2></a></button>
+        <button><a href="adoption-cat.html"><h2>Cats</h2></a></button>
+    </fieldset>
+    <br>
+    <form action="/signup" method="POST" id="contactform">
+        <fieldset>
+            <legend><h2>&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;</h2></legend><br>
+            <label>*First Name:</label>&nbsp;
+            <input type="text" name="name">&nbsp;&nbsp;&nbsp;
+            <label>*Last Name:</label>&nbsp;
+            <input type="text" name="name"><br>
+            <br>
+            <label>*Email:</label>&nbsp;
+            <input type="email" name="email">&nbsp;&nbsp;&nbsp;
+            <label>*Phone:</label>&nbsp;
+            <input type="tel" name="phone"><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+            <label>Which type of pets you want to adpot?&nbsp;&nbsp;</label>
+            <select>
+                <option>-</option>
+                <option>Dogs</option>
+                <option>Cats</option>
+                <option>Both</option>
+            </select>
+            <br><br>
+            <label>Tell us what we could help you today?</label><br><br>
+            <textarea rows="10" cols="50">Type here......</textarea><br><br>
+            <label>We will contact you as soon as possible after you submit.</label><br><br>
+            <input type="submit" value="Submit" id="sumbit">
+            <input type="reset" value="Reset" id="sumbit">
+            <br><br><br>
+        </fieldset>
+    </form>
+</body>
+<br><br><br><br>
+
+<footer>
+    <div id="information">
+        <h4>Email: info@bestfriendadoption.com</h4>
+        <h4>Phone: 626-BESTADO</h4>
+        <h4>Location: Los Angeles, CA</h4>
+    </div>
+    <div id="nondisclaimer">
+        <div class="copy">
+            &copy; Copyright 2023 :: bestfriendadoption.com
+        </div>
+        <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+    </div>
+    <div id ="disclaimer">
+        <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
+    </div>
+</footer>
+</html>

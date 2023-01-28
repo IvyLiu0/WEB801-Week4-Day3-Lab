@@ -1,0 +1,335 @@
+/* Header */
+header {
+    width: 100%;
+    height: 300px;
+    background-color: #c0bfff;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+nav {
+    padding-top: 50px;
+}
+header img {
+    padding-left: 40px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #13124e;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+nav ul li.active{
+    background: #13124e;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+nav ul li.active a{
+    color: #fff;
+}
+
+
+
+/* index body */
+body {
+    background-image: url(images/logo-bg.png);
+}
+#home h1 {
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home h3 {
+    text-align: center;
+    color: #6766bd;;
+    margin: 0 200px;
+    padding-bottom: 20px;
+}
+#home p {
+    text-align: center;
+    color: #6766bd;;
+    margin: 0 200px;
+    padding-bottom: 20px;
+}
+.choice {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #13124e;
+    border: 2px solid #6766bd;
+}
+.choice button {
+    background-color: #13124e;
+    width: 100px;
+    margin: 2px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.choice button h2 {
+    color: #fff;
+}
+.choice button a:hover{
+    color: #ffffff;
+}
+
+#contactform {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #13124e;
+}
+#contactform fieldset{
+    border: 2px solid #6766bd;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #13124e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+input[type="reset"]{
+    width: 100px;
+    height: 30px;
+    background-color: #13124e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+#contactform select {
+    width: 100px;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 320px;
+    padding-bottom: lem;
+    background-color: #c0bfff;
+}
+#information {
+    padding-left: 200px;
+    padding-top: 1em;
+    color: #13124e;
+}
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+    color: #13124e;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear:both;
+}
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+    color: #13124e;
+}
+footer #nondisclaimer .social .fa{
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover{
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+footer #nondisclaimer .social .fa-twitter {
+    background: #55acee;
+    color: white;
+}
+footer #nondisclaimer .social .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* Adoption Dog */
+/* #adoptiondog {
+    text-align: center;
+} */
+#adoptiondog h1 {
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+table, caption, th, td {
+    border: 2px solid #6766bd;
+}
+th, td{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+th {
+    color: #6766bd;
+}
+td:first-child{
+    color: #6766bd;
+}
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: x-large;
+    height: 40px;
+    padding-top: 15px;
+    color: #13124e;
+}
+.eightdogs{
+    text-align: center;
+    margin-left: 190px;
+}
+.dogname {
+    background-color: #c0bfff;
+    width: 280px;
+    color: #13124e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 12px;
+    position: top;
+}
+.dogbox {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.dogbox:nth-child(6){
+    padding-bottom: 80px;
+}
+footer{
+    clear: both;
+}
+
+
+
+/* Adoption Cat */
+/* #adoptioncat {
+    text-align: center;
+} */
+#adoptioncat h1 {
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eightcats{
+    text-align: center;
+    margin-left: 190px;
+}
+.catname {
+    background-color: #c0bfff;
+    width: 280px;
+    color: #13124e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 12px;
+    position: top;
+}
+.catbox {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.catbox:nth-child(6){
+    padding-bottom: 80px;
+}
+
+/* gallery page */
+#gallery h1{
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li img{
+    width: 300px;
+}
+
+#album li {
+    display: block;
+    float: left;
+    width: 25%;
+    /* padding-bottom: 50px; */
+}
+
+.captionName{
+    color: #6766bd;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    position: relative;
+    top: -250px;
+    left: 50px;
+    width: 200px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0bfffc4;
+    border-radius: 20px;
+    color: #13124e;
+    font-size:large;
+    text-align: center;
+    padding-top: 30px;
+}
+
+li:hover:hover{
+    cursor: pointer;
+}
+
+.description{
+    visibility: hidden;
+}
+
+li:hover .description{
+    visibility: visible;
+}
+
+#ablum .caption{
+    color: #6766bd;
+}
+
