@@ -12,17 +12,17 @@ function popupboxx(){
     var popupClose =[];
     var whole = [];
     var popupbox = [];
-    var hOpenTag = "<h3 id='popupH3'>";
+    var hOpenTag = "<div id='popupContent'><h3 id='popupH3'>";
     var hCloseTag = "</h3>";
     var pOpenTag = "<p id='popupP'>";
     var pCloseTag = "</p>";
-    var btnOpenTag = "<button id='popupBtn'>";
-    var btnCloseTag = "</button>";
+    var btnOpenTag = "<button onclick = 'closeBtn()' id='popupBtn'>";
+    var btnCloseTag = "</button></div>";
 
 for (var i=0; i<1; i++){
-    popupheading = hOpenTag + "My cutie friend" + hCloseTag;
-    popuptext = pOpenTag + "Welcome to my friend!" + pCloseTag;
-    popupClose = btnOpenTag + "Close" + btnCloseTag;
+    popupheading = hOpenTag + "My cutie friends" + hCloseTag;
+    popuptext = pOpenTag + "Thank you for visiting!" + pCloseTag;
+    popupClose = btnOpenTag + "X" + btnCloseTag;
     whole = popupheading + popuptext + popupClose;
     popupbox.push(whole);
 }
@@ -40,12 +40,16 @@ modal.style.display = "block";
     
 // }
 // Get the <span> element that closes the modal
-document.getElementById("popupBtn").addEventListener("click",popupclose);
-function popupclose (){
-    var span = document.getElementsById("popupBtn");
+// document.getElementById("popupBtn").addEventListener("click",popupclose);
+// function popupclose (){
+//     var span = document.getElementsById("popupBtn");
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
-    modal.style.display = "none";
-}
+//     // When the user clicks on <span> (x), close the modal
+//     span.onclick = function() { 
+//     modal.style.display = "none";
+// }
+// }
+
+function closeBtn(){
+    modal.style.display="none";
 }

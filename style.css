@@ -333,3 +333,46 @@ li:hover .description{
     color: #6766bd;
 }
 
+/* The Modal (background) */
+#popupBox {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #6766bd; /* Fallback color */
+    background-color: #c0bfff54; /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  #popupContent {
+    background-color: #c0bfff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+  }
+
+  #popupH3, #popupP{
+    color: #13124e;
+  }
+  
+  /* The Close Button */
+  #popupBtn {
+    color: #c0bfff;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  
+ #popupBtn:hover,
+ #popupBtn:focus {
+    color: #13124e;
+    text-decoration: none;
+    cursor: pointer;
+  }
