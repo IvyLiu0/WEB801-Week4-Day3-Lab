@@ -353,7 +353,7 @@ li:hover .description{
     background-color: #c0bfff;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #c0bfff;
     width: 30%;
   }
 
@@ -364,9 +364,11 @@ li:hover .description{
   /* The Close Button */
   #popupBtn {
     color: #c0bfff;
-    float: right;
+    float:right;
     font-size: 15px;
     font-weight: bold;
+    margin-top: -100px;
+    border: 1px solid #c0bfff;
   }
 
   
